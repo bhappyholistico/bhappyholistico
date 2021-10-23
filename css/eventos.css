@@ -1,0 +1,49 @@
+.textFlexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    text-align: center;
+    color: var(--white);
+
+    gap: 15px 15px;
+  }
+  
+  .partTextFlexbox{
+    background-color: rgba(	50, 30, 16, 0.75);
+    border-radius: 3px;
+  
+    width: 45%;
+  
+    transition: 0.5s;
+  }
+  
+  .partTextFlexbox:hover{
+    background-color: rgba(	50, 30, 16, 0.85);
+  
+    transition: 0.5s;
+  }
+  
+  .titlePartTextFlexbox{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+  
+    margin: 5vh 2.5vw 0 2.5vw;
+  
+    font-size: 1.25em;
+  }
+  
+  .partTextFlexbox p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+    margin: 2.5vh 2.5vw 5vh 2.5vw;
+  }
+
+  @media screen and (max-width: 700px){
+
+    .partTextFlexbox{
+        width: 100%;
+    }
+    
+  }

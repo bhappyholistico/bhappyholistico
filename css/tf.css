@@ -1,0 +1,241 @@
+#buttonBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+#buttonBox li{
+    width: 30%;
+}
+
+.buttonDiv{
+    border-radius: 3px;
+
+    width: 100%;
+    height: 10vh;
+
+    font-weight: 700;
+    background-repeat: no-repeat;
+
+    cursor: pointer;
+
+    margin: 0 0 8vh 0;
+
+    filter: sepia(0.1);
+    filter: contrast(0.9);
+}
+
+.fadeAnimation{
+    border-radius: 3px;
+
+    width: 100%;
+    height: 10vh;
+
+    position: relative;
+
+    background-color: var(--white);
+    opacity: 0.25;
+
+    transition: 0.25s;
+
+    cursor: pointer;
+}
+
+.fadeAnimation:hover{
+    opacity: 0.1;
+}
+
+.tfTitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+    font-size: large;
+
+    margin-top: 0.5vh;
+}
+
+#bgPopup{
+    width: 100vw;
+    height: 100vh;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+#bgPopup.show{
+    background-color: rgba(	50, 30, 16, 0.3);
+    backdrop-filter: blur(3px);
+
+    visibility: visible;
+    transition: 0.5s;
+}
+
+.popup{
+    width: 80vw;
+    height: 80vh;
+
+    position: absolute;
+
+    top: -80vh;
+    left: 10vw;
+
+    background-color: var(--white);
+    border-radius: 3px;
+
+    overflow-y: auto;
+
+    transition: 0.5s;
+}
+
+.popup.show{
+    top: 10vh;
+    left: 10vw;
+
+    transition: 0.5s;
+}
+
+.divButtonClose{
+    height: 8%;
+    width: 100%;
+
+    background-color: var(--white);
+}
+
+.buttonClose{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 1.8em;
+
+    cursor: pointer;
+
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+
+.imgPopup{
+    width: 100%;
+    height: 25vmax;
+}
+
+.popupContent{
+    margin: 2.5vh 2.5vw 2.5vh 2.5vw;
+}
+
+.popupTitle{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 1.75em;
+
+    margin-bottom: 0.5vh;
+}
+
+.popupList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px 10px;
+
+    width: 100%;
+
+    margin-bottom: 2.5vh;
+}
+
+.popupList li{
+    padding: 5px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+
+    border-radius: 3px;
+}
+
+.terapeutaName{
+    background-color: var(--brown);
+
+    color: var(--white);
+}
+
+.terapiaMoney, .terapiaTime{
+    border: 1px solid var(--brown);
+
+    color: var(--brown);
+}
+
+.popup p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+
+
+}
+
+.popup p:not(:last-child){
+    margin-bottom: 1vh;
+}
+
+@media screen and (max-width: 1000px){
+    .tfTitle{
+        font-size: 1em;
+    }
+
+    #buttonBox li{
+        width: 48%;
+    }
+
+    .buttonDiv{
+        width: 100%;
+        margin: 0 0 8vh 0;
+    }
+
+    .fadeAnimation{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    .popupContent{
+        margin: 2.5vh 7.5vw 2.5vh 7.5vw;
+    }
+
+    .popup p{
+        text-align: left;
+    }
+
+    .popup.show{
+        top: 7.5vh;
+        left: 10vw;
+    
+        transition: 0.5s;
+    }
+
+    .popupTitle{
+        font-size: 1.5em;
+    }
+
+    .tfTitle{
+        font-size: 1em;
+    }
+
+    #buttonBox li{
+        width: 100%;
+    }
+
+    .buttonDiv{
+        width: 100%;
+        margin: 0 0 8vh 0;
+    }
+
+    .fadeAnimation{
+        width: 100%;
+    }
+}
