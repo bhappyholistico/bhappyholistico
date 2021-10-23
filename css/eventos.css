@@ -13,7 +13,7 @@
     background-color: rgba(	50, 30, 16, 0.75);
     border-radius: 3px;
   
-    width: 49%;
+    width: 45%;
   
     transition: 0.5s;
   }
@@ -28,7 +28,7 @@
     border: 1px solid var(--brown);
     border-radius: 3px;
   
-    width: 49%;
+    width: 45%;
     
     color: var(--brown);
   }
