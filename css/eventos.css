@@ -23,6 +23,15 @@
   
     transition: 0.5s;
   }
+
+  .partTextFlexboxSemData{
+    border: 1px solid var(--brown);
+    border-radius: 3px;
+  
+    width: 45%;
+    
+    color: var(--brown);
+  }
   
   .titlePartTextFlexbox{
     font-family: 'Dosis', sans-serif;
@@ -33,7 +42,7 @@
     font-size: 1.25em;
   }
   
-  .partTextFlexbox p{
+  .partTextFlexbox p, .partTextFlexboxSemData p{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 
