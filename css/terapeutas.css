@@ -27,6 +27,11 @@
     width: 75%;
 }
 
+#ana{
+    background-image: url('../images/therapists/ana.jpg');
+    background-size: contain; background-repeat: no-repeat;
+}
+
 #cristina{
     background-image: url('../images/therapists/cristina.jpg');
     background-size: contain; background-repeat: no-repeat;
