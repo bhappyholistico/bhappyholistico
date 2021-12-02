@@ -321,6 +321,23 @@ buttonCloseAuricular.addEventListener('click', function(evt){
 
 //
 
+let buttonTarot = document.getElementById('tarot');
+
+buttonTarot.addEventListener('click', function(evt){
+    document.getElementById('bgPopup').classList.add('show');
+    document.getElementById('popupTarot').classList.add('show');
+});
+
+let buttonCloseTarot = document.getElementById('buttonCloseTarot');
+
+buttonCloseTarot.addEventListener('click', function(evt){
+    document.getElementById('bgPopup').classList.remove('show');
+    document.getElementById('popupTarot').classList.remove('show');
+
+});
+
+//
+
 let buttonTheta = document.getElementById('theta');
 
 buttonTheta.addEventListener('click', function(evt){

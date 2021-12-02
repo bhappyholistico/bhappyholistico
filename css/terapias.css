@@ -379,6 +379,26 @@
 
 /**/
 
+#tarot{
+    background-image: url('../images/therapy/tarot_small.jpg');
+    background-size: 100%; background-position: center; background-repeat: no-repeat;
+}
+
+#imgPopupTarot{
+    background-image: url('../images/therapy/tarot_medium.jpg');
+    background-size: 100%; background-position: center; background-repeat: no-repeat;
+}
+
+#popupTarot{
+    visibility: hidden;
+}
+
+#popupTarot.show{
+    visibility: visible;
+}
+
+/**/
+
 #theta{
     background-image: url('../images/therapy/theta_small.jpg');
     background-size: 100%; background-position: center; background-repeat: no-repeat;

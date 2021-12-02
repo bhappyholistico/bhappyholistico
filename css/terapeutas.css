@@ -42,6 +42,11 @@
     background-size: contain; background-repeat: no-repeat;
 }
 
+#gina{
+    background-image: url('../images/therapists/gina.jpg');
+    background-size: contain; background-repeat: no-repeat;
+}
+
 #isabel{
     background-image: url('../images/therapists/isabel.jpg');
     background-size: contain; background-repeat: no-repeat;
