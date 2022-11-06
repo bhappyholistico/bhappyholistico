@@ -1,0 +1,39 @@
+#acm{
+    background-image: url('../images/formacoes/acm.jpg');
+    background-size: 100%; background-position: center; background-repeat: no-repeat;
+}
+
+#imgPopupAcm{
+    background-image: url('../images/formacoes/acm.jpg');
+    background-size: 100%; background-position: center; background-repeat: no-repeat;
+}
+
+#popupAcm{
+    visibility: hidden;
+}
+
+#popupAcm.show{
+    visibility: visible;
+}
+
+/**/
+
+#rosas{
+    background-image: url('../images/formacoes/rosas.jpg');
+    background-size: 100%; background-position: center; background-repeat: no-repeat;
+}
+
+#imgPopupRosas{
+    background-image: url('../images/formacoes/rosas.jpg');
+    background-size: 100%; background-position: center; background-repeat: no-repeat;
+}
+
+#popupRosas{
+    visibility: hidden;
+}
+
+#popupRosas.show{
+    visibility: visible;
+}
+
+/**/

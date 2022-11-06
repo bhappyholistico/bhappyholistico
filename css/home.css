@@ -1,0 +1,87 @@
+.slideshowContainer{
+    display: block;
+  }
+  
+  .slideshowContainer img{
+    width: 100%;
+  
+    border-radius: 3px;
+    } 
+    
+    .mySlides{
+      display: none;
+    }
+  
+    .fade{
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 2.5s;
+      animation-name: fade;
+      animation-duration: 2.5s;
+    }
+    
+    @-webkit-keyframes fade{
+      from {opacity: .6}
+      to {opacity: 1}
+    }
+    
+    @keyframes fade{
+      from {opacity: .6}
+      to {opacity: 1}
+    }
+
+.homeText{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+    text-align: justify;
+
+    margin: 0px 0px 2.5vh 0px;
+}
+
+#textFlexbox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  color: var(--white);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+
+  text-align: center;
+}
+
+.partTextFlexbox{
+  background-color: rgba(	50, 30, 16, 0.75);
+  border-radius: 3px;
+
+  width: 30%;
+
+  transition: 0.5s;
+}
+
+.partTextFlexbox:hover{
+  background-color: rgba(	50, 30, 16, 0.85);
+
+  transition: 0.5s;
+}
+
+.titlePartTextFlexbox{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+
+  margin: 5vh 2.5vw 0 2.5vw;
+
+  font-size: 1.25em;
+}
+
+.partTextFlexbox p{
+  margin: 2.5vh 2.5vw 5vh 2.5vw;
+}
+
+@media screen and (max-width: 700px){
+  .partTextFlexbox{
+    width: 90%;
+
+    margin-bottom: 5vh;
+  }
+}
