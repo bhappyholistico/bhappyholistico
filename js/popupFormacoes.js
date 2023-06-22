@@ -15,6 +15,23 @@ buttonCloseAcm.addEventListener('click', function(evt){
 
 //
 
+let buttonLeitura = document.getElementById('leitura');
+
+buttonLeitura.addEventListener('click', function(evt){
+    document.getElementById('bgPopup').classList.add('show');
+    document.getElementById('popupLeitura').classList.add('show');
+});
+
+let buttonCloseLeitura = document.getElementById('buttonCloseLeitura');
+
+buttonCloseLeitura.addEventListener('click', function(evt){
+    document.getElementById('bgPopup').classList.remove('show');
+    document.getElementById('popupLeitura').classList.remove('show');
+
+});
+
+//
+
 let buttonRosas = document.getElementById('rosas');
 
 buttonRosas.addEventListener('click', function(evt){
