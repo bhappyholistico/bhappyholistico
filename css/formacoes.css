@@ -18,6 +18,26 @@
 
 /**/
 
+#leitura{
+    background-image: url('../images/therapy/aura_small.jpg');
+    background-size: 100%; background-position: center; background-repeat: no-repeat;
+}
+
+#imgPopupLeitura{
+    background-image: url('../images/therapy/aura_medium.jpg');
+    background-size: 100%; background-position: center; background-repeat: no-repeat;
+}
+
+#popupLeitura{
+    visibility: hidden;
+}
+
+#popupLeitura.show{
+    visibility: visible;
+}
+
+/**/
+
 #rosas{
     background-image: url('../images/formacoes/rosas.jpg');
     background-size: 100%; background-position: center; background-repeat: no-repeat;
