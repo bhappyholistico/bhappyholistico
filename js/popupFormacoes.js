@@ -48,3 +48,20 @@ buttonCloseRosas.addEventListener('click', function(evt){
 });
 
 //
+
+let buttonPendulo = document.getElementById('pendulo');
+
+buttonPendulo.addEventListener('click', function(evt){
+    document.getElementById('bgPopup').classList.add('show');
+    document.getElementById('popupPendulo').classList.add('show');
+});
+
+let buttonClosePendulo = document.getElementById('buttonClosePendulo');
+
+buttonClosePendulo.addEventListener('click', function(evt){
+    document.getElementById('bgPopup').classList.remove('show');
+    document.getElementById('popupPendulo').classList.remove('show');
+
+});
+
+//
